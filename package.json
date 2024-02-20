@@ -1,0 +1,16 @@
+{
+  
+  "scripts": {
+  
+    
+  "generate-sidebar": "node docs/generateSidebar.js"
+  
+  },
+  
+  "dependencies": {
+  
+    
+  "docsify-themeable": "^0.9.0"
+  
+  }
+}
