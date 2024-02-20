@@ -20,7 +20,29 @@
     <link rel="stylesheet" title="light" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
     <link rel="stylesheet" title="dark" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css">
     <link rel="stylesheet" href="Switch/docsify-dark-switch.css">  
-    
+    <!--字体设置-->
+    <style>
+      @font-face {
+        font-family: 'Borda';
+        src: local('Borda'), url('fonts/Borda DemiBold.ttf') format('truetype');
+      }
+
+      /* 对英语文本应用Borda字体 */
+      body:lang(en) {
+        font-family: 'Borda', serif;
+      }
+
+      /* 对中文文本应用默认字体（例如宋体或微软雅黑） */
+      body:lang(zh) {
+        font-family: 'Roboto Slab', sans-serif; /* 你可以选择其他中文字体 */
+      }
+
+      h1, h2, h3:lang(en){
+        font-family: 'Borda', serif;
+      }
+  
+      /* 可以继续添加其他元素的字体样式 */
+  </style>
 </head>
 
 <body>
